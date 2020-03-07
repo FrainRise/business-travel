@@ -1,7 +1,7 @@
 import React from 'react';
 import Introduction from './home-components/Introduction'
 import AboutUs from './home-components/AboutUs'
-import Photos from './home-components/Photos'
+import PhotosSlider from './home-components/PhotosSlider'
 import ServicePros from './home-components/ServicePros'
 import HotTour from './home-components/HotTour'
 import Contact from './home-components/Contact'
@@ -15,7 +15,7 @@ export default class HomePage extends React.Component {
             <div>
                 <Introduction />
                 <AboutUs />
-                <Photos />
+                <PhotosSlider />
                 <ServicePros />
                 <HotTour />
                 <Contact />

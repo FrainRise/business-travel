@@ -1,0 +1,82 @@
+.pros-section {
+    height: 980px;
+    max-width: 100%;
+    text-align: center;
+
+    .pros-title {
+        margin-bottom: 50px;
+
+        .title {
+            color: #000000;
+            font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .title-descr {
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 20px;
+            color: #5B5B5C;
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400; 
+            text-align: center;
+        }
+    }
+
+    .pros-info {
+        margin-left: 70px;
+        margin-right: 70px;
+        img {
+            max-width: 800px;
+            float: left;
+        }
+
+        .item-title {
+            margin-top: 50px;
+            float: left;
+            color: #000000;
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase; 
+        }
+
+        .item-descr {
+            float: left;
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 20px;
+            color: #848484;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400; 
+            text-align: left;
+            line-height: 40px;
+            letter-spacing: 3px;
+        }
+
+        button {
+            float: left;
+            margin-top: 50px;
+            width: 220px;
+            height: 55px;
+            color: #000000;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            background: #DDDCDC;
+            border: none;
+            transition: all 0.5s ease-out;
+        }
+
+        button:hover {
+            transition: all 0.5s ease-in;
+            background: transparent;
+            border: 1px solid #000000;
+        }
+    }
+}

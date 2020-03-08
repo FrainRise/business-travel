@@ -1,14 +1,14 @@
-.aboutus-section {
-    height: 800px;
+.hotTour-section {
+    height: 950px;
 
     .custom-row {
         margin: 35px 50px 0 50px;
 
         .text-col {
-            margin: 100px 0 0 25px;
-            max-width: 700px;
+            margin: 70px 0 0 225px;
+            max-width: 800px;
 
-            .about-title {
+            .hotTour-title {
                 color: #C4C4C4;
                 font-size: 22px;
                 font-family: 'Montserrat', sans-serif;
@@ -26,41 +26,21 @@
 
             .article-descr {
                 color: #5B5B5C;
-                font-size: 22px;
+                font-size: 20px;
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 500;
                 margin: 40px 0 40px 0;
-            }
-
-            .article-btn {
-                height: 55px;
-                width: 250px;
-                max-width: 250px;
-                margin-top: 25px;
-                color: #000000;
-                background: transparent;
-                border: 2px solid #000000;
-                font-size: 18px;
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 400;
-                text-transform: uppercase;
-                transition: all 0.5s ease-in;
-            }
-
-            .article-btn:hover {
-                background: #000000;
-                color: #ffffff;
-                transition: all 0.5s ease-out;
+                line-height: 40px;
+                text-align: left;
             }
         }
 
         .img-col {
             max-width: 700px;
             max-height: 1000px;
-            margin-left: 250px;
             
             img {
-                height: 790px;
+                height: 900px;
                 width: 650px;
                 -webkit-box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
                 -moz-box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);

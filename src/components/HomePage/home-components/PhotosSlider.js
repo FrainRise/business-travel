@@ -1,13 +1,13 @@
 import React from 'react';
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 import './PhotosSlider.scss'
-import islandsImage from '../../../assets/islands.png'
-import roadImage from '../../../assets/road.png'
-import sunsetImage from '../../../assets/sunset.png'
-import italiaImage from '../../../assets/italia.jpeg'
-import italiaSecImage from '../../../assets/italia_2.jpeg'
-import mountainsImage from '../../../assets/mountains.jpeg'
+import islandsImage from '../../../assets/homepage/islands.png'
+import roadImage from '../../../assets/homepage/road.png'
+import sunsetImage from '../../../assets/homepage/sunset.png'
+// import italiaImage from '../../../assets/italia.jpeg'
+// import italiaSecImage from '../../../assets/italia_2.jpeg'
+// import mountainsImage from '../../../assets/mountains.jpeg'
 
 export default class Photos extends React.Component {
 
@@ -36,7 +36,26 @@ export default class Photos extends React.Component {
                         sed do eiusmod tempor incididunt ut labore et dolore   
                     </p>
                 </div>
-                <div className="slider-section">
+                <div className="photos">
+                    <div className="row slider-section align-content-center justify-content-center">
+                        <div className="col-xl-4">
+                            <img src={islandsImage} alt="" />
+                        </div>
+                        <div className="col-xl-4">
+                            <img src={roadImage} alt="" />
+                        </div>
+                        <div className="col-xl-4">
+                            <img src={sunsetImage} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+
+/*<div className="slider-section">
                     <Slider {...settings}>
                         <div>
                             <img src={sunsetImage} alt="sunset-img" />
@@ -57,8 +76,4 @@ export default class Photos extends React.Component {
                             <img src={mountainsImage} alt="mountain-img" />
                         </div>
                     </Slider>
-                </div>
-            </div>
-        )
-    }
-}
+                </div>*/

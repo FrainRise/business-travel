@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './AboutUs.scss'
-import articleImage from '../../../assets/sebastien.jpeg'
+import articleImage from '../../../assets/homepage/sebastien.jpeg'
 
 export default class AboutUs extends React.Component {
     render(){

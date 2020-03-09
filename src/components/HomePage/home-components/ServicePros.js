@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './ServicePros.scss'
-import sunsetBeach from '../../../assets/sunset-beach.png'
-import sweetHome from '../../../assets/sweet-home.png'
+import sunsetBeach from '../../../assets/homepage/sunset-beach.png'
+import sweetHome from '../../../assets/homepage/sweet-home.png'
 
 
 export default class ServicePros extends React.Component {

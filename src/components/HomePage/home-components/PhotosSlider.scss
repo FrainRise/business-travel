@@ -29,8 +29,18 @@
         margin-top: 50px;
         
         img {
-           width: 700px;
-           height: 490px;
-        }
+            width: 500px;
+            height: 400px;
+            -webkit-box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
+            -moz-box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
+            box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
+            transition: all 1s ease-in;
+         }
+
+        img:hover {
+            transition: all 1s ease-out;
+            transform: scale(1.2);
+        } 
+        
     }
 }

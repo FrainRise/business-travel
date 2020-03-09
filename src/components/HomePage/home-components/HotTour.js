@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './HotTour.scss'
-import shipsImg from '../../../assets/ships.png'
+import shipsImg from '../../../assets/homepage/ships.png'
 
 export default class HotTour extends React.Component {
     render(){

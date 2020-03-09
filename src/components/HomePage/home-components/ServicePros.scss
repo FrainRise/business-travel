@@ -32,6 +32,16 @@
         img {
             max-width: 800px;
             float: left;
+            transition: all 1s ease-in;
+        }
+        
+        img:hover {
+            transition: all 1s ease-out;
+            -webkit-box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
+            -moz-box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
+            box-shadow: 5px 11px 27px -14px rgba(0,0,0,0.75);
+            border-radius: 100%;
+            transform: scale(1.1);
         }
 
         .item-title {

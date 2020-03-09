@@ -9,8 +9,7 @@ import ContactUs from './about-components/ContactUs'
 
 export default function AboutPage(){
     return (
-        <div>
-            <h2>This is about page</h2>
+        <div className="main-container">
             <TopsideBar />
             <AboutIntro />
             <CeoTeam />

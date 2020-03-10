@@ -4,4 +4,30 @@
     .wrap {
         background: #e4e4e4;
     }
+
+    .navbar {
+        padding-top: 1%!important;
+        padding-bottom: 1%!important;
+        background: #e4e4e4;
+
+        .nav-link {
+            max-width: 100%;
+            color: #000000!important;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 14px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all 3s  ease-in;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            border-bottom: 1px solid #ffffff;
+            transition: all 3s ease-out;
+        }
+    }
 }

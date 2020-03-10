@@ -24,6 +24,9 @@ export default function Navbar(){
                     <li className="nav-item ml-5">
                         <Link to='/travels' style={linkStyle}><a className="nav-link" href="/#">Travel</a></Link>
                     </li>
+                    <li className="nav-item ml-5">
+                        <Link to='/gallery' style={linkStyle}><a className="nav-link" href="/#">Gallery</a></Link>
+                    </li>
                 </ul>
             </div>
         </nav>

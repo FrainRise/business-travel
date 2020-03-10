@@ -13,19 +13,6 @@ export default class Photos extends React.Component {
 
     
     render(){
-        let settings = {
-            autoplay: true,
-            autplaySpeed: 2000,
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 3,
-            className: "center",
-            centerMode: true,
-            centerPadding: "600px",
-            fade: true,
-        }
 
         return(
             <div className="portfolio-section">
@@ -55,7 +42,24 @@ export default class Photos extends React.Component {
 }
 
 
-/*<div className="slider-section">
+/*
+ let settings = {
+            autoplay: true,
+            autplaySpeed: 2000,
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 3,
+            className: "center",
+            centerMode: true,
+            centerPadding: "600px",
+            fade: true,
+        }
+
+
+<div className="slider-section">
+
                     <Slider {...settings}>
                         <div>
                             <img src={sunsetImage} alt="sunset-img" />
@@ -76,4 +80,5 @@ export default class Photos extends React.Component {
                             <img src={mountainsImage} alt="mountain-img" />
                         </div>
                     </Slider>
-                </div>*/
+                </div>
+*/

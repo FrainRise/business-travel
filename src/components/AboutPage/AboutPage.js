@@ -6,6 +6,7 @@ import AboutIntro from './about-components/AboutIntro'
 import CeoTeam from './about-components/CeoTeam'
 import PhotoTeam from './about-components/PhotoTeam'
 import ContactUs from './about-components/ContactUs'
+import Footer from '../HomePage/home-components/Footer'
 
 export default function AboutPage(){
     return (
@@ -15,6 +16,9 @@ export default function AboutPage(){
             <CeoTeam />
             <PhotoTeam />
             <ContactUs />
+            <div className="wrap">
+                <Footer />
+            </div>
         </div>
     )
 }

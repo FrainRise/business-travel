@@ -8,19 +8,19 @@ export default class Contact extends React.Component {
             <div className="contact-section">
                 <div className="contact-info">
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col col-md-8">
                             <h2 className="contact-title"> Book a discounter tour</h2>
                             <p className="descr">
                                 Mauris ultrices eros in cursus turpis 
                             </p>
                         </div>
-                        <div className="col-3">
+                        <div className="col col-md-6">
                             <input type="text" className="contact-input" placeholder="Name" />
                         </div>
-                        <div className="col-3">
+                        <div className="col col-md-6">
                             <input type="text" className="contact-input" placeholder="Email" />
                         </div>
-                        <div className="col-2">
+                        <div className="col col-md-6">
                             <button className="contact-btn">
                                 Send
                             </button>

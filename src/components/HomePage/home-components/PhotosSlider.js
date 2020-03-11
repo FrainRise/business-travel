@@ -25,13 +25,13 @@ export default class Photos extends React.Component {
                 </div>
                 <div className="photos">
                     <div className="row slider-section align-content-center justify-content-center">
-                        <div className="col-xl-4">
+                        <div className="col col-xl-4 ">
                             <img src={islandsImage} alt="" />
                         </div>
-                        <div className="col-xl-4">
+                        <div className="col col-xl-4">
                             <img src={roadImage} alt="" />
                         </div>
-                        <div className="col-xl-4">
+                        <div className="col col-xl-4">
                             <img src={sunsetImage} alt="" />
                         </div>
                     </div>

@@ -7,7 +7,8 @@ import HotTour from './home-components/HotTour'
 import Contact from './home-components/Contact'
 import Footer from './home-components/Footer'
 
-//import './HomePage.scss'
+import './HomePage.scss'
+import './responsive-home.scss'
 
 export default class HomePage extends React.Component {
     render(){

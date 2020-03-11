@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './AboutPage.scss'
+import './responsive-about.scss'
 // import TopsideBar from './about-components/TopsideBar'
 import AboutIntro from './about-components/AboutIntro'
 import CeoTeam from './about-components/CeoTeam'

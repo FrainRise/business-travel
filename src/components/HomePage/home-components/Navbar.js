@@ -16,16 +16,16 @@ export default function Navbar(){
             <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item ml-5">
-                        <Link to='/' style={linkStyle}><a className="nav-link" href="/#">Home <span className="sr-only">(current)</span></a></Link>
+                        <Link to='/' className="nav-link" style={linkStyle}> Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item ml-5">
-                        <Link to='/about-us' style={linkStyle}><a className="nav-link" href="/#">About</a></Link>
+                        <Link to='/about-us' className="nav-link" style={linkStyle}>About</Link>
                     </li>
                     <li className="nav-item ml-5">
-                        <Link to='/travels' style={linkStyle}><a className="nav-link" href="/#">Travel</a></Link>
+                        <Link to='/travels'  className="nav-link" style={linkStyle}>Travel</Link>
                     </li>
                     <li className="nav-item ml-5">
-                        <Link to='/gallery' style={linkStyle}><a className="nav-link" href="/#">Gallery</a></Link>
+                        <Link to='/gallery'  className="nav-link" style={linkStyle}>Gallery</Link>
                     </li>
                 </ul>
             </div>

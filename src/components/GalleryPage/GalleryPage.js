@@ -2,10 +2,14 @@ import React from 'react'
 
 import './GalleryPage.scss'
 
+import Introduction from './gallery-components/Introduction'
+import Footer from '../HomePage/home-components/Footer'
+
 export default function GalleryPage() {
     return (
         <div className="gallery-page">
-            <h2>This is gallery page</h2>
+            <Introduction />
+            <Footer />
         </div>
     )
 }

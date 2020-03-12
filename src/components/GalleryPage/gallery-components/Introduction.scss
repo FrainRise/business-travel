@@ -1,0 +1,49 @@
+.wrap {
+    height: 970px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/gallerypage/waterfall.jpg");
+    opacity: 1;
+
+    .navbar {
+        padding-top: 2%!important;
+
+        .nav-link {
+            max-width: 100%;
+            color: #ffffff!important;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 14px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all 3s  ease-in;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            border-bottom: 1px solid #ffffff;
+            transition: all 3s ease-out;
+        }
+    }
+
+    .introduction-section {
+        max-width: 100%;
+        text-align: center;
+
+        .intro-title {
+            margin-top: 350px;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 37px;
+        }
+    }
+}

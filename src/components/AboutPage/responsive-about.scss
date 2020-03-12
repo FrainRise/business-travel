@@ -66,7 +66,6 @@
                     }
                 }
             }
-        
         }
 
         /* ----- PHOTOGRAPHERS TEAM COMPONENT ----- */
@@ -139,4 +138,81 @@
             }
         }
     }
+}
+
+/* IPADS QUERIES */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-container {
+
+        /* ----- NAVBAR COMPONENT  ----- */
+        .navbar {
+            .nav-link {
+                padding: 10px;
+                margin-left: 16rem;
+                margin-right: 2rem;
+            }
+            
+            .nav-link:hover {
+                border-bottom: none;
+            }
+        }
+
+         /* ----- ABOUT INTRO COMPONENT ----- */
+         .about-section {
+            max-height: 520px;
+        
+            .about-title {
+                padding-top: 230px;
+                font-size: 44px;
+                line-height: 59px;
+            }
+        }
+        
+         /* ----- CEO TEAM COMPONENT ----- */
+
+         .ceo-section {
+            height: 1300px;
+
+            .title-section {
+                .title {
+                    padding-top: 50px;
+                    font-size: 44px;
+                }
+        
+                .description {
+                    width: 600px;
+                    font-size: 22px;
+                }
+            }
+        
+            .custom-row {
+                margin: 0 auto;
+                margin-top: 50px;
+        
+                .text-col {
+                    margin: 0 auto;
+                    text-align: center;
+        
+                    .ceo-name {
+                        margin-top: 25px;
+                        font-size: 30px;
+                        line-height: 37px;
+                    }
+                }
+            }
+        }
+
+        /* ----- PHOTOGRAPHERS TEAM COMPONENT ----- */
+        .phototm-section {
+            height: 1000px;
+        }
+    }
+}
+
+/* DESKTOPS and LAPTOPS QUERIES */
+
+@media only screen  and (min-width: 1224px) {
+
 }

@@ -15,7 +15,7 @@ export default function CeoTeam() {
                 <div className="col">
                     <img src={andrewIcon} alt=""/>
                 </div>
-                <div className="col text-col">
+                <div className="col-10 text-col">
                     <h2 className="ceo-name">Andrew Kovalenko</h2>
                     <h6 className="ceo-position">Frontend developer</h6>
                     <p className="ceo-descr">
@@ -29,12 +29,12 @@ export default function CeoTeam() {
                 <div className="col">
                     <img src={clayIcon} alt="" />
                 </div>
-                <div className="col text-col">
-                    <h2 className="ceo-name">Clay Jenkins</h2>
+                <div className="col-10 text-col">
+                    <h2 className="ceo-name">Clay Jenkins (a.k.a CJ)</h2>
                     <h6 className="ceo-position">Backend developer </h6>
                     <p className="ceo-descr">
                         One of the initiators of the idea of ​​business travel. 
-                        He does not like sports, but likes food. :c
+                        He does not like sports, but likes food.  :c
                     </p>
                 </div>
             </div>

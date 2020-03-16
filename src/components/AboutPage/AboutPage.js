@@ -18,7 +18,7 @@ export default function AboutPage(){
             <CeoTeam />
             <PhotoTeam />
             <ContactUs />
-            <div className="wrap">
+            <div className="cont-wrap">
                 <Footer />
             </div>
         </div>

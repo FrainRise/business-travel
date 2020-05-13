@@ -4,6 +4,7 @@ import './GalleryPage.scss'
 
 import Introduction from './gallery-components/Introduction'
 import TravelSlider from './gallery-components/TravelSlider'
+import PhotoSection from './gallery-components/PhotoSection'
 import Footer from '../HomePage/home-components/Footer'
 
 export default function GalleryPage() {
@@ -11,6 +12,7 @@ export default function GalleryPage() {
         <div className="gallery-page">
             <Introduction />
             <TravelSlider />
+            <PhotoSection />
             <Footer />
         </div>
     )
